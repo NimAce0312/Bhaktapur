@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Features Of Bhaktapur</title>
+	<link rel="shortcut icon" href="Pictures/Logo/bkt-logo.png">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+<body>
+	<header>
+		<div class="container" id="top">
+			<nav class="nav">
+				<div class="menu-toggle">
+					<img class="bars" src="Pictures/SVG/bars.svg"></img>
+					<img class="cross" src="Pictures/SVG/times.svg"></img>
+				</div>
+				<a href="index.html" class="logo"><img src="Pictures/Logo/bkt-logo.png"></a>
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link"><span class="first-letter">H</span>ome</a>
+					</li>
+					<li class="nav-item">
+						<a href="introduction.html" class="nav-link"><span class="first-letter">I</span>ntroduction</a>
+					</li>
+					<li class="nav-item">
+						<a href="features.html" class="nav-link active"><span class="first-letter">F</span>eatures</a>
+					</li>
+					<li class="nav-item">
+						<a href="landmarks.html" class="nav-link"><span class="first-letter">L</span>andmarks</a>
+					</li>
+					<li class="nav-item">
+						<a href="festivals.html" class="nav-link"><span class="first-letter">F</span>estivals</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- Header Ends -->
+
+	<section class="heading">
+		<div class="container">
+			<div class="top-part">
+				<h2 class="main-headline">
+					<span class="first-letter">F</span>eatures
+				</h2>
+				<h1 class="headline">Of</h1>
+				<h1 class="headline">Bhaktapur</h1>
+			</div>
+			<div class="bottom-part">
+				<div class="seperator">
+					<div class="line line-left"></div>
+					<div class="asterisk"><img src="Pictures/SVG/asterisk.svg"></div>
+					<div class="line line-right"></div>
+				</div>
+				<div class="bot-bottom">
+					<h5>Scroll Down To View Content</h5>
+					<div class="arrow-box">
+						<div class="arrow"><img src="Pictures/SVG/chevron-up.svg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Heading Ends -->
+
+	<text>
+		<section class="hp1">
+			<div class="container text-container hide" id="container1">
+				<div class="information">
+					<div class="description js-to-right">
+						<p>It is the home of traditional art and architecture, historical monuments and craft work, magnificent windows, pottery and weaving industries, excellent temples, beautiful ponds, rich local customs, culture, religion, festivals, musical mystic and so on. Bhaktapur is still an untouched as well as preserved ancient city that is itself the world to explore for tourists. Here are so many heritage sites to view Nepal's ancient history. From time immemorial it lay on he trade route between Tibet and India. This position on the main caravan route made the town rich and prosperous.</p>
+					</div>					
+				</div>
+			</div>
+		</section>
+	</text>
+	<!-- First Paragraph Ends -->
+
+	<text>
+		<section class="features-images">
+			<div class="container hide" id="container2">
+				<div class="information">
+					<div class="info-img img-grp">
+						<img class="fi1 js-to-right" src="Pictures/Images/players.jpg">
+						<img class="fi2 js-to-left" src="Pictures/Images/flute.jpg">
+						<img class="fi3 js-to-top" src="Pictures/Images/old.jpg">
+					</div>
+				</div>
+			</div>
+		</section>
+	</text>
+	<!-- Image Group Ends -->
+
+	<text>
+		<section class="hp2">
+			<div class="container text-container hide" id="container3">
+				<div class="information">
+					<div class="description js-to-left">
+						<p>The male inhabitants of this city wear a special type of cap called the Bhadgaule Topi with Daura Suruwal whereas the female wear Hakupatasi and Whantang Suruwal. These are the cultural dresses of Newar community that they have been wearing from thier ancient times. Newar community people were recognized from their dress and their language.</p>
+					</div>					
+				</div>
+			</div>
+		</section>
+	</text>
+	<!-- Last Paragraph Ends -->
+
+	<footer>
+		<div class="container">
+			<div class="back-to-top">
+				<a href="#top"><img src="Pictures/SVG/chevron-up.svg"></a>
+			</div>
+			<div class="footer-content">
+				<div class="footer-content-divider">
+					<div class="social-media">
+						<h4>Follow Us</h4>
+						<ul class="social-icons">
+							<li>
+								<a href="#"><img src="Pictures/SVG/facebook.svg"></a>
+							</li>
+							<li>
+								<a href="#"><img src="Pictures/SVG/twitter.svg"></a>
+							</li>
+							<li>
+								<a href="#"><img src="Pictures/SVG/instagram.svg"></a>
+							</li>
+							<li>
+								<a href="#"><img src="Pictures/SVG/youtube.svg"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="copyright">
+						<p>&copy; Copyright 2020 Bhaktapur Municipality</p>
+					</div>
+				</div>
+				<br>
+				<div class="credit">
+					<div class="made">
+						<p>Designed And Made By: Nimesh Pradhanang</p>
+						<div class="nlogo">
+							<div class="n">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer Ends -->
+</body>
+<script type="text/javascript" src="JS/main.js"></script>
+<script type="text/javascript" src="JS/ScrollMagic.min.js"></script>
+<script type="text/javascript">
+(function(){
+	let scene;
+
+	let controller = new ScrollMagic.Controller();
+
+	let items = document.querySelectorAll("text");
+
+	items.forEach(function(element, index){
+		let height = element.clientHeight;
+		scene = new ScrollMagic.Scene({
+			duration: height,
+			triggerElement: element,
+			triggerHook: 0.99,
+			reverse: true
+		})
+		.on("leave enter", function(){
+			let cont = document.getElementById("container" + (index + 1));
+
+			if (cont.classList.contains("hide")){
+				cont.classList.remove("hide");
+				cont.classList.add("show");
+			}
+		})
+		.addTo(controller);
+	});
+})();
+</script>
+</html>
