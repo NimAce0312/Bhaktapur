@@ -13,8 +13,11 @@
 		<div class="container" id="top">
 			<nav class="nav">
 				<div class="menu-toggle">
-					<img class="bars" src="Pictures/SVG/bars.svg"></img>
-					<img class="cross" src="Pictures/SVG/times.svg"></img>
+					<div class="box">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
 				</div>
 				<a href="index.html" class="logo"><img src="Pictures/Logo/bkt-logo.png"></a>
 				<ul class="nav-list">
@@ -208,38 +211,95 @@
 				<a href="#top"><img src="Pictures/SVG/chevron-up.svg"></a>
 			</div>
 			<div class="footer-content">
+				<div class="suggestions-text">
+					<h2>Suggestions</h2>
+					<p>If there is anything you think can be added on to this website please do fill the form. I will do my best to add the element demanded. Even if you don't have any suggestions you can share your views on the website I made.</p>
+				</div>
+				<br>
+				<br>
+				<br> 
 				<div class="footer-content-divider">
-					<div class="social-media">
-						<h4>Follow Us</h4>
-						<ul class="social-icons">
+					<div class="form">
+						<form action="post" data-netlify="true" name="Suggestions">
+							<div class="fields">
+								<div class="field half dname">
+									<label for="name">Name</label>
+									<br>  
+									<input type="text" name="Name" id="name" class="form-text" />
+								</div>
+								<br>
+								<div class="field half demail">
+									<label for="email">Email</label>
+									<br>
+									<input type="text" name="Email" id="email" class="form-text" />
+								</div>
+								<br>
+								<div class="field full dmessage">
+									<label for="message">Message</label>
+									<br>
+									<textarea name="Message" id="message" class="form-text long-text" rows="5"></textarea>
+								</div>
+								<br>
+							</div>
+							<ul class="actions">
+								<li><button type="submit" class="button submit">Send Message</button></li>
+							</ul>
+						</form>
+					</div>
+					<br>
+					<div class="dividor">
+					</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<div class="contact">
+						<ul class="contact-list">
 							<li>
-								<a href="#"><img src="Pictures/SVG/facebook.svg"></a>
+								<h3>Address</h3>
+								<br>
+								<p>221B Baker Street, London, England</p>
 							</li>
+							<br>
+							<br>
+							<br>
 							<li>
-								<a href="#"><img src="Pictures/SVG/twitter.svg"></a>
+								<h3>Email</h3>
+								<br>
+								<p>examlpe@gmail.com</p>
 							</li>
+							<br>
+							<br>
+							<br>
 							<li>
-								<a href="#"><img src="Pictures/SVG/instagram.svg"></a>
-							</li>
-							<li>
-								<a href="#"><img src="Pictures/SVG/youtube.svg"></a>
+								<h3>Social</h3>
+								<br>
+								<ul class="social-icons">
+									<li>
+										<a href="#"><img src="Pictures/SVG/facebook.svg"></a>
+									</li>
+									<li>
+										<a href="#"><img src="Pictures/SVG/twitter.svg"></a>
+									</li>
+									<li>
+										<a href="#"><img src="Pictures/SVG/instagram.svg"></a>
+									</li>
+									<li>
+										<a href="#"><img src="Pictures/SVG/youtube.svg"></a>
+									</li>
+								</ul>
 							</li>
 						</ul>
 					</div>
-					<div class="copyright">
-						<p>&copy; Copyright 2020 Bhaktapur Municipality</p>
-					</div>
 				</div>
-				<br>
-				<div class="credit">
-					<div class="made">
-						<p>Designed And Made By: Nimesh Pradhanang</p>
-						<div class="nlogo">
-							<div class="n">
-								<span></span>
-								<span></span>
-								<span></span>
-							</div>
+				<div class="footer-ending">
+					<div class="copyright">
+						<p>&copy; Untitled. All rights reserved.</p>
+					</div><div class="credit">
+						<div class="made">
+							<p>Design: NimAce</p>
 						</div>
 					</div>
 				</div>
